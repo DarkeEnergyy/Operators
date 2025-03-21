@@ -1,0 +1,203 @@
+html{
+	font-family: Montserrat;
+}
+body{
+	margin: 0;
+}
+
+/*Шапка*/
+header{
+	color: white;
+	background: #8877D6;
+	height: 132px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-left: 96px;
+	/*text-align: center;
+	vertical-align: middle;
+	line-height: 132px;*/
+
+}
+#header_buy_button{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-right: 59px;
+	/*position: fixed;
+	right: 0%;
+	margin-right: 378px;*/
+}
+#header_feedback_button{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-right: 96px;
+	/*line-height: 132px;
+	position: fixed;
+	right: 0%;
+	margin-right: 96px;*/
+}
+
+.rounded-rectangle {
+    width: 1303px;
+    height: 775px;
+    background-color: black;
+    border-radius: 7.5em; /* Скругление углов */
+    margin:  70pt auto;
+}
+
+.quickline {
+    width: 1303px;
+    height: 218px;
+    font-family: Montserrat;
+    font-weight: medium;
+    color:  white;
+    background-color: rgba(138, 121, 214, 1);
+    border-radius: 4.5em; /* Скругление углов */
+    margin:  75pt auto;
+	padding-left: 100;
+	padding-right: 100;
+
+}
+
+.line {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 45px;
+	font-size: 20pt;
+}
+
+
+.line2 {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 5px;
+	font-size: 20pt;
+}
+
+.line3 {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 15px;
+	font-size: 20pt;
+}
+
+.graphicline {
+	display: flex;
+	width: 1140px;
+    height: 1px;
+    background-color: white;
+    margin: -236px auto;
+}
+
+.graphicline2 {
+	display: flex;
+	width: 1140px;
+    height: 1px;
+    background-color: white;
+    margin: 276px auto;
+}
+
+.text1 {
+	width: 1303px;
+    height: 1303px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin: -90px auto;
+}
+
+.text2 {
+	width: 1303px;
+    height: 1303px;
+    font-family: Montserrat;
+    font-weight: medium;
+    font-size: 25px;
+    color: black;
+    margin: -1150px auto;
+}
+
+.graphicline3 {
+	display: flex;
+	width: 5px;
+    height: 150px;
+    background-color: rgba(60, 73, 236, 1);
+}
+
+.inside_graphicline3 {
+	width: 1303px;
+    height: 1303px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 25px;
+    color: black;
+    margin: -162px auto;
+}
+
+
+.picture {
+    width: 1303px;
+    height: 775px;
+    background-color: black;
+    border-radius: 7.5em; /* Скругление углов */
+    margin:  -850pt auto;
+}
+
+.under_picture {
+    width: 1303px;
+    height: 775px;
+    color: rgba(171, 171, 171, 1);
+    font-weight: medium;
+    margin:  870pt auto;
+}
+
+.picture2 {
+    width: 1303px;
+    height: 775px;
+    background-color: black;
+    border-radius: 7.5em; /* Скругление углов */
+    margin:  -1350pt auto;
+}
+
+.under_picture2 {
+    width: 1303px;
+    height: 775px;
+    color: rgba(171, 171, 171, 1);
+    font-weight: medium;
+    margin:  1370pt auto;
+}
+
+.picture3 {
+    width: 1303px;
+    height: 775px;
+    background-color: black;
+    border-radius: 7.5em; /* Скругление углов */
+    margin:  -1840pt auto;
+}
+
+.under_picture3 {
+    width: 1303px;
+    height: 775px;
+    color: rgba(171, 171, 171, 1);
+    font-weight: medium;
+    margin:  1860pt auto;
+}
+
+

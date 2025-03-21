@@ -1,0 +1,237 @@
+html{
+	font-family: Montserrat;
+}
+body{
+	margin: 0;
+}
+
+/*Шапка*/
+header{
+	color: white;
+	background: #8877D6;
+	height: 132px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-left: 96px;
+	/*text-align: center;
+	vertical-align: middle;
+	line-height: 132px;*/
+
+}
+#header_buy_button{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-right: 59px;
+	/*position: fixed;
+	right: 0%;
+	margin-right: 378px;*/
+}
+#header_feedback_button{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-right: 96px;
+	/*line-height: 132px;
+	position: fixed;
+	right: 0%;
+	margin-right: 96px;*/
+}
+
+/*Меню*/
+#menu{
+	padding-top: 69px;
+	padding-left: 67px;
+	padding-bottom: 67px;
+	padding-right: 75px;
+	display: flex;
+	justify-content: space-between;
+}
+#menu_right_part{
+	width: 438px;
+	height: 328px;
+	margin-top: 26px;
+}
+#menu_heading{
+	color: black;
+	font-weight: bold;
+	font-size: 30pt;
+	display: block;
+	margin-bottom: 26px;
+}
+#menu_text{
+	color: black;
+	font-weight: 500;
+	font-size: 20pt;
+	display: block;
+	margin-bottom: 26px;
+}
+#menu_button{
+	width: 290px;
+	height: 81px;
+	background: #444EEA;
+	color: white;
+	font-weight: 500;
+	font-size: 16pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 81px;
+	border-radius: 34px;
+}
+#menu_clickable_button{
+	color: white;
+	font-weight: 500;
+	font-size: 16pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 81px;
+	display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+/*Статистика*/
+#stats_main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#stats{
+	width: 50%;
+	background: #8877D6;
+	border-radius: 0em 5em 5em 0em;
+	padding-bottom: 69px;
+}
+#stats_heading{
+	color: white;
+	font-weight: bold;
+	font-size: 30pt;
+	display: block;
+	margin-top: 50px;
+}
+#stats_table{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+#stats_table_column1{
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-left: 157px;
+	text-align: left;
+}
+#stats_table_column2{
+	color: white;
+	font-weight: normal;
+	font-size: 20pt;
+	margin-right: 150px;
+	text-align: right;
+}
+#histogram{
+	margin-right: 97px;
+	mix-blend-mode: darken;
+	background-blend-mode: darken, luminosity;
+}
+
+/*FAQ*/
+#faq_main{
+	margin-top: 63px;
+}
+.faq_white{
+	padding-top: 54px;
+	padding-right: 83px;
+	padding-bottom: 52px;
+	padding-left: 77px;
+}
+.faq_title_white{
+	font-weight: bold;
+	font-size: 30pt;
+}
+.faq_text_white{
+	font-weight: 500;
+	font-size: 20pt;
+	text-align: justify;
+	display: block;
+	margin-top: 37px;
+}
+.faq_black{
+	padding-top: 54px;
+	padding-right: 83px;
+	padding-bottom: 52px;
+	padding-left: 77px;
+	background: #8A79D6;
+}
+.faq_title_black{
+	font-weight: bold;
+	font-size: 30pt;
+	color: white;
+}
+.faq_text_black{
+	font-weight: 500;
+	font-size: 20pt;
+	color: white;
+	text-align: justify;
+	display: block;
+	margin-top: 37px;
+}
+
+/*Подвал*/
+footer{
+	margin-top: 211px;
+	height: 730px;
+	background: #8E7BD5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#footer_column1{
+	margin-left: 176px;
+}
+#footer_logo{
+	color: white;
+	font-weight: bold;
+	font-size: 38pt;
+}
+#footer_adress{
+	color: white;
+	font-weight: 500;
+	font-size: 16pt;
+	display: flex;
+	margin-top: 170px;
+}
+#footer_column2{
+	margin-right: 195px;
+}
+#footer_column2_title{
+	color: white;
+	font-weight: bold;
+	font-size: 16pt;
+}
+#footer_links{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+.footer_icon{
+	display: flex;
+	margin-top: 36px;
+}
+.footer_links_text{
+	display: flex;
+	margin-left: 30px;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 16pt;
+}

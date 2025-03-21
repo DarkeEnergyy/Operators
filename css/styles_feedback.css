@@ -1,0 +1,167 @@
+html{
+	font-family: Montserrat;
+}
+body{
+	margin: 0;
+}
+
+/*Шапка*/
+header{
+	color: white;
+	background: #8877D6;
+	height: 132px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-left: 96px;
+	/*text-align: center;
+	vertical-align: middle;
+	line-height: 132px;*/
+
+}
+#header_buy_button{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-right: 59px;
+	/*position: fixed;
+	right: 0%;
+	margin-right: 378px;*/
+}
+#header_feedback_button{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-right: 96px;
+	/*line-height: 132px;
+	position: fixed;
+	right: 0%;
+	margin-right: 96px;*/
+}
+
+/*Форма*/
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 0 150px;
+	box-sizing: border-box;
+}
+#form{
+	margin-top: 167px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: stretch;
+}
+#title{
+	font-weight: bold;
+	font-size: 56pt;
+}
+.input{
+	margin-top: 31px;
+	width: 100%;
+	height: 107px;
+	border-radius: 52px;
+	padding-left: 44px;
+	font-weight: 500;
+	font-size: 20pt;
+}
+#sirname{
+	margin-top: 36px;
+}
+#message{
+	padding-top: 41px;
+	height:452px;
+}
+#send{
+	width: 512px;
+	height: 81px;
+	margin-top: 39px;
+	background: #444EEA;
+	color: white;
+	font-weight: 500;
+	font-size: 20pt;
+	border-radius: 34px;
+}
+
+/*Информация*/
+#info{
+	padding: 0 145px;
+	margin-top: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+.info_elems{
+	margin-top: 42px;
+	display: flex;
+}
+.info_elems_title{
+	font-weight: bold;
+	font-size: 28pt;
+}
+.info_elems_text{
+	display: block;
+	font-weight: 500;
+	font-size: 20pt;
+	margin-top: 17px;
+}
+
+/*Подвал*/
+footer{
+	margin-top: 211px;
+	height: 730px;
+	background: #8E7BD5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#footer_column1{
+	margin-left: 176px;
+}
+#footer_logo{
+	color: white;
+	font-weight: bold;
+	font-size: 38pt;
+}
+#footer_adress{
+	color: white;
+	font-weight: 500;
+	font-size: 16pt;
+	display: flex;
+	margin-top: 170px;
+}
+#footer_column2{
+	margin-right: 195px;
+}
+#footer_column2_title{
+	color: white;
+	font-weight: bold;
+	font-size: 16pt;
+}
+#footer_links{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+.footer_icon{
+	display: flex;
+	margin-top: 36px;
+}
+.footer_links_text{
+	display: flex;
+	margin-left: 30px;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 16pt;
+}
